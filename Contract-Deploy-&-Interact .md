@@ -21,7 +21,8 @@ rustc --version
 
 **Windows or VPS by WSL/Ubuntu** 
 ```
-sudo apt install jq
+sudo apt install -y jq
+jq --version
 ```
 
 **Mac**
