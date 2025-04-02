@@ -1,4 +1,4 @@
-# Seismic-Devnet-Testnet-Guide\
+# Seismic-Devnet-Testnet-Guide
 
 ## Introduction
 Seismic is an encrypted blockchain platform that integrates secure hardware to provide encrypted global state, memory access, and data flow. This architecture enables developers to build decentralized applications with enhanced privacy and security, supporting use cases such as exchanges, lending platforms, auctions, stablecoins, and launchpads. By restructuring the blockchain stack around secure enclaves, Seismic offers a foundation for next-generation applications requiring confidentiality and data protection.
