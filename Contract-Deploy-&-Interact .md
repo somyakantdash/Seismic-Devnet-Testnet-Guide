@@ -12,16 +12,9 @@ sudo apt install cargo -y
 
 2️⃣ Install Rust
 ```
-curl https://sh.rustup.rs -sSf | sh  
-. "$HOME/.cargo/env"
-rustc --version
-```
-In Github Codespace
-```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
-```
 source $HOME/.cargo/env
+rustc --version
 ```
 
 3️⃣ Install JQ
