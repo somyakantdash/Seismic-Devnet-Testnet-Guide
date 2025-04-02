@@ -58,6 +58,8 @@ bash script/deploy.sh
 - Then Get Faucet in ur Address & Proceed it
 
 Faucet: https://faucet-2.seismicdev.net/
+
+Explorer: https://explorer-2.seismicdev.net/
 - U get ur address already just put it & get a faucet
 
 ## Interact with an Encrypted Contract
