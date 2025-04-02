@@ -15,6 +15,6 @@ Seismic Systems secured $7 million in seed funding in March 2025, led by a16z Cr
 
 2️⃣ Check: https://icoanalytics.org/projects/seismic/
 
-## Deploy Contract & Do Interactions [Check Out](Contract-Deploy-&-Interact.md)   
+## Deploy Contract & Do Interactions [Check Out](Contract-Deploy-&-Interact .md)   
 
 [System Requiremnets](system-requirements.md)
