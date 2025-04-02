@@ -17,19 +17,19 @@ curl https://sh.rustup.rs -sSf | sh
 rustc --version
 ```
 
-3️⃣ Install jq
+3️⃣ Install JQ
+
 **Windows or VPS by WSL/Ubuntu** 
 ```
 sudo apt install jq
 ```
 
-**mac**
+**Mac**
 ```
 brew install jq
 ```
 
 4️⃣ Download Some Files
-
 ```
 curl -L \
      -H "Accept: application/vnd.github.v3.raw" \
@@ -83,3 +83,28 @@ bash script/transact.sh
 ```
 
 ## How to Get your Wallet Private Key
+
+1️⃣ Check the Keystore File
+```
+cd try-devnet/packages/contract/
+ls
+```
+Look for a file named something like wallet.json or keystore.json.
+
+2️⃣ Extract Private Key Using jq
+
+If the wallet details are in a JSON file, use jq to extract the private key
+```
+cat wallet.json | jq -r '.privateKey'
+```
+```
+cat keystore.json | jq -r '.privateKey'
+```
+- Replace wallet.json with the actual filename if different
+
+```
+sfoundryup --help
+```
+```
+sfoundryup wallet export-private-key
+```
