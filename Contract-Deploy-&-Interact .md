@@ -84,3 +84,10 @@ bun install
 ```
 bash script/transact.sh
 ```
+- A wallet is automatically created, and its details (address and faucet URL) are displayed.
+- Then Get Faucet in ur Address & Proceed it
+
+Faucet: https://faucet-2.seismicdev.net/
+
+Explorer: https://explorer-2.seismicdev.net/
+- U get ur address already just put it & get a faucet
